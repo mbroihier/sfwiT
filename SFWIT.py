@@ -15,8 +15,6 @@ class SFWIT ():
             '''
             self.api = twitter.Api(consumer_key=T.CONSUMER_KEY, consumer_secret=T.CONSUMER_SECRET, access_token_key=T.ACCESS_TOKEN_KEY, access_token_secret=T.ACCESS_TOKEN_SECRET, tweet_mode='extended')
             self.following = []
-            for friend in self.api.GetFriends():
-                self.following.append(friend.AsDict()['screen_name'])
         def getEmbeddedStatus(self, statusID):
             '''
             Get a status record in an embedded format
@@ -59,4 +57,7 @@ class SFWIT ():
             '''
             Get the list of screen names being followed
             '''
+            self.following = []
+            for friend in self.api.GetFriends():
+                self.following.append(friend.AsDict()['screen_name'])
             return json.dumps(self.following)
