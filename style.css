@@ -1,0 +1,37 @@
+h1 {
+    font-size: 400%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+}
+
+ul {
+    margin-left: 25%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+
+body {
+    font-family: verdana;
+    color: #000000;
+}
+
+a {
+    font-family: verdana;
+    color: #000000;
+}
+
+table, td, tr, th {
+    empty-cells: show;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
