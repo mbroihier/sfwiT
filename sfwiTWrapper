@@ -1,0 +1,2 @@
+python3 twitterServer.py --websocket >/dev/null 2>&1 &
+node twitter-display-server.js >/dev/null 2>&1
