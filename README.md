@@ -19,6 +19,6 @@ From a bash shell:
 3) ./configure (if you supply a port number, this alternative port number will be used for the web server)
 4) Add the necessary Twitter tokens to TwitterToken.py with your favorite editor
 5) Start the client using the wrapper script
-   . ./sfwiTWrapper
+   - ./sfwiTWrapper
 6) Use a browser to see a list of your "friends" and their timelines
-   . http://myComputer:2999 (in your browser)
+   - http://myComputer:2999 (in your browser)
