@@ -8,5 +8,5 @@ Homepage:
 
 Package: sfwit
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: 
 Description: Simple Twitter Client
